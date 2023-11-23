@@ -3,11 +3,10 @@
     <h1>{{ msg }}</h1>
 
     <p>
-      Welcome to our e-learning platform! Watch the video tutorial below and use the resources provided.
+      Welcome to our e-learning platform! Explore the resources provided below.
     </p>
 
-  
-
+    <!-- Recommended IDE setup -->
     <p>
       Recommended IDE setup:
       <a href="https://code.visualstudio.com/" target="_blank">VS Code</a>
@@ -15,6 +14,7 @@
       <a href="https://github.com/johnsoncodehk/volar" target="_blank">Volar</a>
     </p>
 
+    <!-- Documentation links -->
     <p>
       <a href="https://vitejs.dev/guide/features.html" target="_blank">
         Vite Documentation
@@ -23,15 +23,19 @@
       <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Documentation</a>
     </p>
 
-    <button type="button" @click="count++">count is: {{ count }}</button>
+    <!-- Counter button -->
+    <button type="button" @click="count++">Count is: {{ count }}</button>
 
-    <!-- Popup Chat -->
-    <button @click="toggleChat">Open Chat</button>
+    <!-- Chat button -->
+    <button @click="openChat">Open Chat</button>
+
+    <!-- Chat popup -->
     <div v-if="isChatOpen" class="chat-popup">
-      <!-- Your chat component goes here -->
-      <p>Chat with fellow learners!</p>
+      <!-- Replace the alert with your actual chat component -->
+      <p @click="closeChat">Chat with fellow learners!</p>
     </div>
 
+    <!-- Edit message -->
     <p>
       Edit
       <code>components/HelloWorld.vue</code> to test hot module replacement.
@@ -49,8 +53,12 @@ defineProps({
 const count = ref(0)
 const isChatOpen = ref(false)
 
-const toggleChat = () => {
-  isChatOpen.value = !isChatOpen.value
+const openChat = () => {
+  isChatOpen.value = true
+}
+
+const closeChat = () => {
+  isChatOpen.value = false
 }
 </script>
 
@@ -59,15 +67,15 @@ a {
   color: #42b983;
 }
 
-/* Add styles for your chat popup */
+/* Chat popup styles */
 .chat-popup {
   position: fixed;
-  bottom: 0;
-  right: 15px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #f1f1f1;
   border: 1px solid #ccc;
   padding: 10px;
-  background-color: #fff;
-  max-height: 300px;
-  overflow-y: auto;
+  z-index: 1;
+  cursor: pointer;
 }
 </style>
