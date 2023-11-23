@@ -12,7 +12,7 @@
         starting, this course will equip you with the skills and knowledge to streamline your product development
         process.
       </p>
-      <img src="https://via.placeholder.com/800x400" alt="Lean Product Management">
+      <img src="https://via.placeholder.com/800x400" alt="Lean Product Management" />
     </section>
 
     <section class="key-concepts">
@@ -24,8 +24,9 @@
         <li>Customer Development</li>
         <li>Lean Canvas</li>
         <li>Kanban Methodology</li>
+        <li>Business Model Canvas</li>
       </ul>
-      <img src="https://via.placeholder.com/800x400" alt="Key Concepts">
+      <img src="https://via.placeholder.com/800x400" alt="Key Concepts" />
     </section>
 
     <section class="resources">
@@ -39,8 +40,25 @@
             target="_blank">The Lean Startup by Eric Ries</a></li>
         <li><a href="https://www.youtube.com/watch?v=2tbc92bPz7s" target="_blank">Introduction to Lean Product
             Management</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Business_Model_Canvas" target="_blank">Business Model Canvas</a></li>
       </ul>
-      <img src="https://via.placeholder.com/800x400" alt="Lean Product Management Resources">
+      <img src="https://via.placeholder.com/800x400" alt="Lean Product Management Resources" />
+    </section>
+
+    <section class="business-model-canvas">
+      <h2>Business Model Canvas</h2>
+      <p>Explore and interact with the Business Model Canvas below:</p>
+      <!-- Embed an interactive Business Model Canvas here (replace with your preferred embed code) -->
+      <iframe src="https://www.businessmodelcanvas.org/" width="800" height="600" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section class="chatbot">
+      <h2>Live Chat Support</h2>
+      <p>Have questions? Chat with our expert now!</p>
+      <!-- Placeholder for a chatbot (replace with your actual chatbot implementation) -->
+      <div class="chatbot-container">
+        <p>This is where the chatbot will be embedded.</p>
+      </div>
     </section>
 
     <section class="cta">
@@ -80,7 +98,17 @@ img {
 .introduction,
 .key-concepts,
 .resources,
+.business-model-canvas,
+.chatbot,
 .cta {
   margin-bottom: 40px;
+}
+
+/* Example style for the chatbot container */
+.chatbot-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  max-width: 600px;
+  margin: 20px auto;
 }
 </style>
