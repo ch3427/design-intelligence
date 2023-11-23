@@ -18,7 +18,7 @@ import HelloWorld from './components/HelloWorld.vue'
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  background-color: #f9f9f9;
+  background-color: #e6f7ff; /* Very light blue background */
   padding: 80px 20px;
   max-width: 800px;
   margin: 0 auto;
@@ -26,7 +26,7 @@ import HelloWorld from './components/HelloWorld.vue'
 }
 
 .header {
-  background-color: #c72d4d;
+  background-color: #5dafe4; /* Adjusted blue color */
   padding: 20px;
   border-radius: 10px;
 }
@@ -37,5 +37,11 @@ HelloWorld {
   margin-top: 20px;
   color: #fff; /* Text color on the colored background */
   font-style: italic;
+}
+
+/* Resize the image to fit */
+img {
+  max-width: 100%;
+  height: auto;
 }
 </style>
