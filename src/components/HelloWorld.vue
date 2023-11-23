@@ -3,6 +3,7 @@
 
     <!-- Chatbox -->
     <div v-if="showChatbox" class="chatbox">
+      <button class="close-chatbox" @click="closeChatbox">&times;</button>
       <p>Need help?</p>
       <button @click="connectToMentor">Connect to a Mentor</button>
       <button @click="showRealLifeApplication">Show Real-Life Application</button>
