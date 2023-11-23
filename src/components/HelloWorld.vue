@@ -3,14 +3,14 @@
 
     <!-- Chatbox -->
     <div v-if="showChatbox" class="chatbox">
-      <p>How can we assist you today?</p>
+      <p>Need help?</p>
       <button @click="connectToMentor">Connect to a Mentor</button>
       <button @click="showRealLifeApplication">Show Real-Life Application</button>
-      <button @click="showQuickSummary">Show Quick Summary</button>
+      <button @click="showQuickSummary">Provide Quick Summary</button>
     </div>
 
     <header>
-      <h1>Learn Lean Product Management</h1>
+      <h1>Lean Product Management</h1>
       <p>Unlock the secrets of efficient product development with lean principles.</p>
     </header>
 
@@ -186,7 +186,7 @@ export default {
       clearTimeout(this.mouseMoveTimer);
       this.mouseMoveTimer = setTimeout(() => {
         this.showChatbox = true;
-      }, 10000); // Show chatbox after 10 seconds of inactivity
+      }, 5000); // Show chatbox after 10 seconds of inactivity
     },
     connectToMentor() {
       // Handle logic for connecting to a mentor
