@@ -6,11 +6,7 @@
       Welcome to our e-learning platform! Watch the video tutorial below and use the resources provided.
     </p>
 
-    <!-- Video Player -->
-    <video controls width="640" height="360">
-      <source src="your-video-url.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
+  
 
     <p>
       Recommended IDE setup:
