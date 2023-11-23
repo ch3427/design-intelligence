@@ -13,13 +13,16 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <style>
 #app {
-  font-family: 'Inter', sans-serif; /* Change to your preferred modern font */
+  font-family: 'Merriweather', serif; /* Change to your preferred font for an editorial look */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #ffffff; /* White text color for dark background */
-  background-color: #2d3142; /* Dark background color with a hint of blue-gray */
+  color: #333; /* Dark text color for a classic editorial feel */
+  background-color: #f5f5f5; /* Light background color */
   padding: 60px 0; /* Adjust padding as needed */
+  max-width: 800px; /* Limit content width for a magazine-style layout */
+  margin: 0 auto; /* Center the content */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
 }
 
 img {
@@ -27,8 +30,11 @@ img {
   height: auto;
 }
 
-/* Add a pop of color to the HelloWorld component */
+/* Style the HelloWorld component for an editorial touch */
 HelloWorld {
-  color: #ffb86c; /* Pop color, adjust as needed */
+  font-size: 1.5em;
+  margin-top: 20px;
+  color: #444;
+  font-style: italic;
 }
 </style>
