@@ -1,75 +1,57 @@
 <template>
-  <div class="elearning-container">
-    <h1>{{ msg }}</h1>
+  <div class="landing-page">
+    <!-- Header Section -->
+    <header>
+      <h1>Learn Lean Product Management</h1>
+      <p>Unlock the secrets of efficient product development with lean principles.</p>
+    </header>
 
-    <p>
-      Welcome to our e-learning platform! Explore the resources provided below.
-    </p>
+    <!-- Introduction Section -->
+    <section class="introduction">
+      <h2>Introduction</h2>
+      <p>
+        Welcome to our Lean Product Management course! Whether you're a seasoned product manager or just starting, 
+        this course will equip you with the skills and knowledge to streamline your product development process.
+      </p>
+    </section>
 
-    <!-- Recommended IDE setup -->
-    <p>
-      Recommended IDE setup:
-      <a href="https://code.visualstudio.com/" target="_blank">VS Code</a>
-      +
-      <a href="https://github.com/johnsoncodehk/volar" target="_blank">Volar</a>
-    </p>
+    <!-- Key Concepts Section -->
+    <section class="key-concepts">
+      <h2>Key Concepts</h2>
+      <ul>
+        <li>Build-Measure-Learn Cycle</li>
+        <li>Minimum Viable Product (MVP)</li>
+        <li>Continuous Improvement</li>
+        <li>Customer Development</li>
+        <!-- Add more key concepts as needed -->
+      </ul>
+    </section>
 
-    <!-- Documentation links -->
-    <p>
-      <a href="https://vitejs.dev/guide/features.html" target="_blank">
-        Vite Documentation
-      </a>
-      |
-      <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Documentation</a>
-    </p>
+    <!-- Resources Section -->
+    <section class="resources">
+      <h2>Resources</h2>
+      <p>Explore these resources to deepen your understanding of Lean Product Management:</p>
+      <ul>
+        <li><a href="https://www.lean.org/" target="_blank">Lean Enterprise Institute</a></li>
+        <li><a href="https://leanstack.com/" target="_blank">Lean Stack</a></li>
+        <li><a href="https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898" target="_blank">The Lean Startup by Eric Ries</a></li>
+        <!-- Add more resources as needed -->
+      </ul>
+    </section>
 
-    <!-- Counter button -->
-    <button type="button" @click="count++">Count is: {{ count }}</button>
+    <!-- Call to Action Section -->
+    <section class="cta">
+      <h2>Ready to Get Started?</h2>
+      <p>Enroll now and take the first step towards becoming a Lean Product Management expert!</p>
+      <button>Enroll Now</button>
+    </section>
 
-    <!-- Chat button -->
-    <button @click="toggleChat" class="chat-button">Open Chat</button>
-
-    <!-- Chat popup -->
-    <div v-if="isChatOpen" class="chat-popup">
-      <!-- Replace the input and button with your actual chat component -->
-      <input v-model="chatMessage" placeholder="Type your message..." />
-      <button @click="sendChatMessage">Send</button>
-      <p @click="closeChat">Chat with fellow learners!</p>
-    </div>
-
-    <!-- Edit message -->
-    <p>
-      Edit
-      <code>components/HelloWorld.vue</code> to test hot module replacement.
-    </p>
+    <!-- Footer Section -->
+    <footer>
+      <p>&copy; 2023 Lean Product Management Institute. All rights reserved.</p>
+    </footer>
   </div>
 </template>
-
-<script setup>
-import { ref } from 'vue'
-
-defineProps({
-  msg: String
-})
-
-const count = ref(0)
-const isChatOpen = ref(false)
-const chatMessage = ref('')
-
-const toggleChat = () => {
-  isChatOpen.value = !isChatOpen.value
-}
-
-const closeChat = () => {
-  isChatOpen.value = false
-}
-
-const sendChatMessage = () => {
-  // Replace this with your actual chat logic
-  alert(`Sending message: ${chatMessage.value}`);
-  chatMessage.value = '';
-}
-</script>
 
 <style scoped>
 /* Global styles */
@@ -80,8 +62,8 @@ body {
   background-color: #f5f5f5;
 }
 
-/* Container styles */
-.elearning-container {
+/* Landing page styles */
+.landing-page {
   max-width: 800px;
   margin: 20px auto;
   padding: 20px;
@@ -90,41 +72,10 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Chat button styles */
-.chat-button {
-  background-color: #42b983;
-  color: #fff;
-  padding: 10px;
-  border: none;
-  cursor: pointer;
-  border-radius: 4px;
+/* Header styles */
+header {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-/* Chat popup styles */
-.chat-popup {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  padding: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Chat input and button styles */
-input {
-  padding: 8px;
-  margin-right: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-button {
-  background-color: #42b983;
-  color: #fff;
-  border: none;
-  padding: 8px;
-  border-radius: 4px;
-  cursor: pointer;
-}
-</style>
+/*
