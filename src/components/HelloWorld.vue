@@ -241,7 +241,7 @@ export default {
   transform: scale(1.1);
 }
 
-/* Styling for bullet points */
+/* Remove bullet points and left-align text */
 ul {
   list-style-type: none;
   margin: 0;
@@ -250,14 +250,9 @@ ul {
 
 ul li {
   margin-bottom: 10px;
-  position: relative;
 }
 
 ul li:before {
-  content: "•";
-  color: #007bff; /* Bullet point color */
-  font-size: 18px;
-  position: absolute;
-  left: -20px;
+  content: none;
 }
 </style>
