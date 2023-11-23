@@ -2,9 +2,11 @@
   <div class="landing-page" @mousemove="handleMouseMove">
 
     <!-- Chatbox -->
-    <div v-if="showChatbox" class="chatbox" @click="toggleChatbox">
-      <!-- Placeholder for your chatbox content -->
-      <p>This is where the chatbox content will be.</p>
+    <div v-if="showChatbox" class="chatbox">
+      <p>How can we assist you today?</p>
+      <button @click="connectToMentor">Connect to a Mentor</button>
+      <button @click="showRealLifeApplication">Show Real-Life Application</button>
+      <button @click="showQuickSummary">Show Quick Summary</button>
     </div>
 
     <header>
@@ -164,31 +166,6 @@
       </p>
     </section>
 
-    <section class="introduction">
-      <h2>Introduction</h2>
-      <p>
-        Welcome to our comprehensive Lean Product Management course! Whether you're a seasoned product manager or just
-        starting, this course will equip you with the skills and knowledge to streamline your product development
-        process.
-      </p>
-      <img src="https://via.placeholder.com/800x400" alt="Lean Product Management" />
-    </section>
-
-    <section class="cta">
-      <h2>Ready to Get Started?</h2>
-      <p>Enroll now and take the first step towards becoming a Lean Product Management expert!</p>
-      <button @click="enrollNow">Enroll Now</button>
-    </section>
-
-    <section class="chatbot">
-      <h2>Live Chat Support</h2>
-      <p>Have questions? Chat with our expert now!</p>
-      <!-- Placeholder for a chatbot (replace with your actual chatbot implementation) -->
-      <div class="chatbot-container">
-        <p>This is where the chatbot will be embedded.</p>
-      </div>
-    </section>
-
     <footer>
       <p>&copy; 2023 Lean Product Management Institute. All rights reserved.</p>
     </footer>
@@ -209,13 +186,19 @@ export default {
       clearTimeout(this.mouseMoveTimer);
       this.mouseMoveTimer = setTimeout(() => {
         this.showChatbox = true;
-      }, 2000);
+      }, 10000); // Show chatbox after 10 seconds of inactivity
     },
-    toggleChatbox() {
-      this.showChatbox = !this.showChatbox;
+    connectToMentor() {
+      // Handle logic for connecting to a mentor
+      console.log('Connecting to a mentor...');
     },
-    enrollNow() {
-      // Handle enrollment logic
+    showRealLifeApplication() {
+      // Handle logic for showing a real-life application
+      console.log('Showing real-life application...');
+    },
+    showQuickSummary() {
+      // Handle logic for showing a quick summary
+      console.log('Showing quick summary...');
     },
   },
 };
