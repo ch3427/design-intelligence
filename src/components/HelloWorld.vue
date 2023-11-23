@@ -6,41 +6,11 @@
       <!-- Placeholder for your chatbox content -->
       <p>This is where the chatbox content will be.</p>
     </div>
-    
-    <!-- ... (existing content) -->
+
     <header>
       <h1>Learn Lean Product Management</h1>
       <p>Unlock the secrets of efficient product development with lean principles.</p>
     </header>
-
-    <section class="introduction">
-      <h2>Introduction</h2>
-      <p>
-        Welcome to our comprehensive Lean Product Management course! Whether you're a seasoned product manager or just
-        starting, this course will equip you with the skills and knowledge to streamline your product development
-        process.
-      </p>
-      <img src="https://via.placeholder.com/800x400" alt="Lean Product Management" />
-    </section>
-
-    <section class="key-concepts">
-      <h2>Key Concepts</h2>
-      <ul>
-        <!-- ... (previous key concepts) -->
-        <li>Business Model Canvas</li>
-      </ul>
-      <img src="https://via.placeholder.com/800x400" alt="Key Concepts" />
-    </section>
-
-    <section class="resources">
-      <h2>Resources</h2>
-      <p>Explore these resources to deepen your understanding of Lean Product Management:</p>
-      <ul>
-        <!-- ... (previous resources) -->
-        <li><a href="https://en.wikipedia.org/wiki/Business_Model_Canvas" target="_blank">Business Model Canvas</a></li>
-      </ul>
-      <img src="https://via.placeholder.com/800x400" alt="Lean Product Management Resources" />
-    </section>
 
     <section class="business-model-canvas">
       <h2>Business Model Canvas</h2>
@@ -48,10 +18,6 @@
         The Business Model Canvas (BMC) is a powerful strategic management tool designed to swiftly and effectively define and
         communicate a business idea or concept. It serves as a one-page document that meticulously outlines the
         fundamental elements of a business or product, structuring an idea in a coherent and accessible way.
-      </p>
-      <p>
-        An exemplary Business Model Canvas consists of two main sections. The right side focuses on the external perspective,
-        specifically the customer, while the left side concentrates on internal aspects related to the business.
       </p>
       <img src="https://via.placeholder.com/800x400" alt="Business Model Canvas" />
       <p>
@@ -198,6 +164,22 @@
       </p>
     </section>
 
+    <section class="introduction">
+      <h2>Introduction</h2>
+      <p>
+        Welcome to our comprehensive Lean Product Management course! Whether you're a seasoned product manager or just
+        starting, this course will equip you with the skills and knowledge to streamline your product development
+        process.
+      </p>
+      <img src="https://via.placeholder.com/800x400" alt="Lean Product Management" />
+    </section>
+
+    <section class="cta">
+      <h2>Ready to Get Started?</h2>
+      <p>Enroll now and take the first step towards becoming a Lean Product Management expert!</p>
+      <button @click="enrollNow">Enroll Now</button>
+    </section>
+
     <section class="chatbot">
       <h2>Live Chat Support</h2>
       <p>Have questions? Chat with our expert now!</p>
@@ -205,12 +187,6 @@
       <div class="chatbot-container">
         <p>This is where the chatbot will be embedded.</p>
       </div>
-    </section>
-
-    <section class="cta">
-      <h2>Ready to Get Started?</h2>
-      <p>Enroll now and take the first step towards becoming a Lean Product Management expert!</p>
-      <button @click="enrollNow">Enroll Now</button>
     </section>
 
     <footer>
@@ -237,6 +213,9 @@ export default {
     },
     toggleChatbox() {
       this.showChatbox = !this.showChatbox;
+    },
+    enrollNow() {
+      // Handle enrollment logic
     },
   },
 };
