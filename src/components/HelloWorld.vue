@@ -201,7 +201,10 @@ export default {
       clearTimeout(this.mouseMoveTimer);
       this.mouseMoveTimer = setTimeout(() => {
         this.showChatbox = true;
-      }, 5000); // Show chatbox after 5 seconds of inactivity
+      }, 10000); // Show chatbox after 10 seconds of inactivity
+    },
+    closeChatbox() {
+      this.showChatbox = false;
     },
     connectToMentor() {
       // Handle logic for connecting to a mentor
@@ -236,6 +239,15 @@ export default {
   border: 1px solid #333;
   padding: 10px;
   transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.close-chatbox {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 18px;
+  color: #aaa;
   cursor: pointer;
 }
 
