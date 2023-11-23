@@ -5,17 +5,20 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <div id="app">
+    <img alt="Vue logo" src="./assets/logo.png" />
+    <HelloWorld msg="Hello Vue 3 + Vite" />
+  </div>
 </template>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', sans-serif; /* Change to your preferred modern font */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #ffffff; /* White text color for dark background */
+  background-color: #1a1a1a; /* Dark background color */
+  padding: 60px 0; /* Adjust padding as needed */
 }
 </style>
