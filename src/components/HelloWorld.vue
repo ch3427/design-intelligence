@@ -8,9 +8,11 @@
     <section class="introduction">
       <h2>Introduction</h2>
       <p>
-        Welcome to our Lean Product Management course! Whether you're a seasoned product manager or just starting,
-        this course will equip you with the skills and knowledge to streamline your product development process.
+        Welcome to our comprehensive Lean Product Management course! Whether you're a seasoned product manager or just
+        starting, this course will equip you with the skills and knowledge to streamline your product development
+        process.
       </p>
+      <img src="https://via.placeholder.com/800x400" alt="Lean Product Management">
     </section>
 
     <section class="key-concepts">
@@ -20,8 +22,10 @@
         <li>Minimum Viable Product (MVP)</li>
         <li>Continuous Improvement</li>
         <li>Customer Development</li>
-        <!-- Add more key concepts as needed -->
+        <li>Lean Canvas</li>
+        <li>Kanban Methodology</li>
       </ul>
+      <img src="https://via.placeholder.com/800x400" alt="Key Concepts">
     </section>
 
     <section class="resources">
@@ -33,8 +37,10 @@
         <li><a
             href="https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898"
             target="_blank">The Lean Startup by Eric Ries</a></li>
-        <!-- Add more resources as needed -->
+        <li><a href="https://www.youtube.com/watch?v=2tbc92bPz7s" target="_blank">Introduction to Lean Product
+            Management</a></li>
       </ul>
+      <img src="https://via.placeholder.com/800x400" alt="Lean Product Management Resources">
     </section>
 
     <section class="cta">
@@ -62,4 +68,19 @@ export default {
 
 <style scoped>
 /* Your styles go here */
+
+/* Example style for images */
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+/* Additional styling for sections */
+.introduction,
+.key-concepts,
+.resources,
+.cta {
+  margin-bottom: 40px;
+}
 </style>
