@@ -9,6 +9,20 @@
       <button @click="showQuickSummary">Provide Quick Summary</button>
     </div>
 
+    <!-- Quick Summary Modal -->
+    <div v-if="showSummaryModal" class="modal">
+      <div class="modal-content">
+        <span class="close" @click="closeSummaryModal">&times;</span>
+        <h2>Quick Summary</h2>
+        <p>
+          Welcome to our Lean Product Management course! This course equips you with skills to streamline product development.
+          Key concepts include the Business Model Canvas, customer segmentation, and effective channels.
+          Explore resources and tools to refine your business model. Connect with mentors for guidance.
+        </p>
+      </div>
+    </div>
+    
+    <!-- Content -->
     <header>
       <h1>Lean Product Management</h1>
       <p>Unlock the secrets of efficient product development with lean principles.</p>
@@ -178,6 +192,7 @@ export default {
   data() {
     return {
       showChatbox: false,
+      showSummaryModal: false,
       mouseMoveTimer: null,
     };
   },
@@ -186,7 +201,7 @@ export default {
       clearTimeout(this.mouseMoveTimer);
       this.mouseMoveTimer = setTimeout(() => {
         this.showChatbox = true;
-      }, 5000); // Show chatbox after 10 seconds of inactivity
+      }, 5000); // Show chatbox after 5 seconds of inactivity
     },
     connectToMentor() {
       // Handle logic for connecting to a mentor
@@ -197,8 +212,12 @@ export default {
       console.log('Showing real-life application...');
     },
     showQuickSummary() {
-      // Handle logic for showing a quick summary
-      console.log('Showing quick summary...');
+      // Show quick summary modal
+      this.showSummaryModal = true;
+    },
+    closeSummaryModal() {
+      // Close quick summary modal
+      this.showSummaryModal = false;
     },
   },
 };
@@ -224,18 +243,36 @@ export default {
   transform: scale(1.1);
 }
 
-/* Remove bullet points and left-align text */
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+/* Modal Styles */
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
 }
 
-ul li {
-  margin-bottom: 10px;
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
 }
 
-ul li:before {
-  content: none;
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: black;
 }
 </style>
