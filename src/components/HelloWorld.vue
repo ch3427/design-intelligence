@@ -159,7 +159,7 @@
     </section>
 
     <footer>
-      <p>&copy; 2023 Lean Product Management Institute. All rights reserved.</p>
+      <p>&copy; Design Intelligence Fall 2023</p>
     </footer>
 
   </div>
@@ -205,8 +205,6 @@ export default {
 </script>
 
 <style scoped>
-/* ... (existing styles) */
-
 /* Chatbox Styles */
 .chatbox {
   position: fixed;
