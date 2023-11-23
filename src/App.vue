@@ -13,12 +13,22 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <style>
 #app {
-  font-family: 'Poppins', sans-serif; /* Change to your preferred modern font */
+  font-family: 'Inter', sans-serif; /* Change to your preferred modern font */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #ffffff; /* White text color for dark background */
-  background-color: #1a1a1a; /* Dark background color */
+  background-color: #2d3142; /* Dark background color with a hint of blue-gray */
   padding: 60px 0; /* Adjust padding as needed */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Add a pop of color to the HelloWorld component */
+HelloWorld {
+  color: #ffb86c; /* Pop color, adjust as needed */
 }
 </style>
