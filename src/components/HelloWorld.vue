@@ -44,12 +44,11 @@
 
       <h3>Purpose</h3>
       <p>Why do we use the Business Model Canvas?</p>
-      <ul>
-        <li>Quickly depict a comprehensive picture of the business idea.</li>
-        <li>Understand the business and establish connections between the idea and its transformation into a viable business.</li>
-        <li>Examine customer decision-making processes that influence the use of your systems.</li>
-        <li>Provide a clear, shared understanding of the business.</li>
-      </ul>
+      <p>
+        Quickly depict a comprehensive picture of the business idea. Understand the business and establish connections between
+        the idea and its transformation into a viable business. Examine customer decision-making processes that influence the
+        use of your systems. Provide a clear, shared understanding of the business.
+      </p>
 
       <h3>How to Use It</h3>
 
@@ -58,121 +57,99 @@
         The Value Proposition is foundational to any business or product, representing the fundamental concept of value exchange
         between your business and customers.
       </p>
-      <p>Ask yourself:</p>
-      <ul>
-        <li>What problem am I solving?</li>
-        <li>Why would someone want this problem solved?</li>
-        <li>What motivates this problem?</li>
-      </ul>
-      <p>Tips:</p>
-      <ul>
-        <li>Consider Maslow’s Hierarchy of Needs to understand how your product/service addresses customer needs.</li>
-        <li>If selling to other businesses, understand your role in fulfilling their Value Proposition.</li>
-      </ul>
+      <p>
+        Ask yourself: What problem am I solving? Why would someone want this problem solved? What motivates this problem?
+      </p>
+      <p>
+        Tips: Consider Maslow’s Hierarchy of Needs to understand how your product/service addresses customer needs. If selling
+        to other businesses, understand your role in fulfilling their Value Proposition.
+      </p>
 
       <h4>Customer Segments</h4>
       <p>
-        Customer Segmentation involves dividing the customer base into groups based on similarities such as age, gender, interests,
-        and spending habits.
+        Customer Segmentation involves dividing the customer base into groups based on similarities such as age, gender,
+        interests, and spending habits.
       </p>
-      <p>Consider:</p>
-      <ul>
-        <li>Who is the problem-solving for?</li>
-        <li>What characteristics define your target customers?</li>
-      </ul>
-      <p>Tip: Understand your market size to grasp the micro and macro perspectives of your market.</p>
+      <p>
+        Consider: Who is the problem-solving for? What characteristics define your target customers?
+      </p>
+      <p>
+        Tip: Understand your market size to grasp the micro and macro perspectives of your market.
+      </p>
 
       <h4>Customer Relationships</h4>
       <p>
         This aspect explores how a business interacts with its customers, whether in person, online, or through events.
       </p>
-      <p>Examples:</p>
-      <ul>
-        <li>In-person (one-to-one)</li>
-        <li>Online</li>
-        <li>Events (one-to-many)</li>
-      </ul>
-      <p>Create a User Journey Map to understand customer interactions, helping identify opportunities for automation.</p>
+      <p>
+        Examples: In-person (one-to-one), Online, Events (one-to-many)
+      </p>
+      <p>
+        Create a User Journey Map to understand customer interactions, helping identify opportunities for automation.
+      </p>
 
       <h4>Channels</h4>
-      <p>Channels refer to avenues through which customers connect with your business. Consider where your customers are and how to reach them effectively.</p>
-      <p>Ask:</p>
-      <ul>
-        <li>How do we inform our customer segment about our value proposition?</li>
-        <li>Where are our customers? (social media, events, etc.)</li>
-      </ul>
-      <p>Examples of Channels:</p>
-      <ul>
-        <li>Social media</li>
-        <li>Email marketing</li>
-        <li>Networking</li>
-        <li>SEO/SEM</li>
-        <li>Content marketing</li>
-      </ul>
+      <p>
+        Channels refer to avenues through which customers connect with your business. Consider where your customers are and how
+        to reach them effectively.
+      </p>
+      <p>
+        Ask: How do we inform our customer segment about our value proposition? Where are our customers? (social media, events, etc.)
+      </p>
+      <p>
+        Examples of Channels: Social media, Email marketing, Networking, SEO/SEM, Content marketing
+      </p>
 
       <h4>Key Activities</h4>
-      <p>Key Activities are the actions your business takes to achieve the value proposition for customers.</p>
-      <p>Ask:</p>
-      <ul>
-        <li>What activities does the business undertake?</li>
-        <li>What resources are used? (time, expertise, distribution, etc.)</li>
-      </ul>
-      <p>Examples:</p>
-      <ul>
-        <li>Consulting</li>
-        <li>Designing</li>
-        <li>Web development</li>
-      </ul>
+      <p>
+        Key Activities are the actions your business takes to achieve the value proposition for customers.
+      </p>
+      <p>
+        Ask: What activities does the business undertake? What resources are used? (time, expertise, distribution, etc.)
+      </p>
+      <p>
+        Examples: Consulting, Designing, Web development
+      </p>
 
       <h4>Key Resources</h4>
-      <p>Identify the practical resources needed to undertake key business activities.</p>
-      <p>Consider:</p>
-      <ul>
-        <li>Office space</li>
-        <li>Computers</li>
-        <li>Staff</li>
-        <li>Internet connection</li>
-      </ul>
-      <p>Examples:</p>
-      <ul>
-        <li>Office space</li>
-        <li>Computers</li>
-        <li>Hosting</li>
-        <li>People (staff)</li>
-      </ul>
+      <p>
+        Identify the practical resources needed to undertake key business activities.
+      </p>
+      <p>
+        Consider: Office space, Computers, Staff, Internet connection
+      </p>
+      <p>
+        Examples: Office space, Computers, Hosting, People (staff)
+      </p>
 
       <h4>Key Partners</h4>
-      <p>List external companies or parties necessary to achieve key activities and deliver value to customers.</p>
-      <p>Ask:</p>
-      <ul>
-        <li>Who else is needed to achieve the value proposition?</li>
-        <li>Who are key partners to fulfill the business promise?</li>
-      </ul>
+      <p>
+        List external companies or parties necessary to achieve key activities and deliver value to customers.
+      </p>
+      <p>
+        Ask: Who else is needed to achieve the value proposition? Who are key partners to fulfill the business promise?
+      </p>
 
       <h4>Cost Structures</h4>
-      <p>Cost Structures encompass the monetary cost of operating the business.</p>
-      <p>Consider:</p>
-      <ul>
-        <li>Costs of key activities, resources, and partnerships.</li>
-        <li>Legal and insurance costs.</li>
-        <li>Opportunity cost of running the business.</li>
-      </ul>
+      <p>
+        Cost Structures encompass the monetary cost of operating the business.
+      </p>
+      <p>
+        Consider: Costs of key activities, resources, and partnerships. Legal and insurance costs. Opportunity cost of running the business.
+      </p>
 
       <h4>Revenue Streams</h4>
-      <p>Revenue Streams are the ways your business converts the value proposition into financial gain.</p>
-      <p>Consider:</p>
-      <ul>
-        <li>Pricing strategies aligned with solving customer problems.</li>
-        <li>Various revenue models (subscription, freemium, etc.).</li>
-      </ul>
+      <p>
+        Revenue Streams are the ways your business converts the value proposition into financial gain.
+      </p>
+      <p>
+        Consider: Pricing strategies aligned with solving customer problems. Various revenue models (subscription, freemium, etc.).
+      </p>
 
       <h3>Tools to Use</h3>
-      <ul>
-        <li><a href="https://canvanizer.com/" target="_blank">Canvanizer</a></li>
-        <li>Whiteboard</li>
-        <li>Butchers Paper</li>
-        <li>Google Slides</li>
-      </ul>
+      <p>
+        <a href="https://canvanizer.com/" target="_blank">Canvanizer</a>, Whiteboard, Butchers Paper, Google Slides
+      </p>
 
       <p>
         The Business Model Canvas is an invaluable tool for entrepreneurs and businesses to visualize, strategize, and innovate.
