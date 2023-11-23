@@ -250,8 +250,9 @@ export default {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #fff;
-  border: 1px solid #ccc;
+  background-color: #1a1a1a; /* Dark background color */
+  color: #fff; /* Text color */
+  border: 1px solid #333;
   padding: 10px;
   transition: transform 0.3s ease-in-out;
   cursor: pointer;
@@ -259,5 +260,25 @@ export default {
 
 .chatbox:hover {
   transform: scale(1.1);
+}
+
+/* Styling for bullet points */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+ul li:before {
+  content: "•";
+  color: #007bff; /* Bullet point color */
+  font-size: 18px;
+  position: absolute;
+  left: -20px;
 }
 </style>
