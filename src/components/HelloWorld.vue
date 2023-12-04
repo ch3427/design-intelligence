@@ -179,7 +179,7 @@ export default {
       clearTimeout(this.mouseMoveTimer);
       this.mouseMoveTimer = setTimeout(() => {
         this.showChatbox = true;
-      }, 10000); // Show chatbox after 10 seconds of inactivity
+      }, 3000); // Show chatbox after 3 seconds of inactivity
     },
     closeChatbox() {
       this.showChatbox = false;
